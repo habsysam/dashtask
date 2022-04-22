@@ -184,7 +184,7 @@ body {
   position: relative;
     right: 21px;
   border: none;
-  margin-right: 20px;
+  margin-right: -11px;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 0px 2px 5px #00000029 !important;
   border-radius: 8px !important;
@@ -245,7 +245,7 @@ body {
   width: 70px;
   height: 388px;
   position: absolute;
-  margin-top: -670px;
+  margin-top: -682px;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 0px 2px 5px #00000029 !important;
   opacity: 1;
@@ -298,6 +298,12 @@ body {
   width: 250px !important;
   margin-left: -100px;
 }
+.asdfgg{
+  width: 250px !important;
+  margin-left: -85px;
+  margin-top: 38px;
+
+}
 
 .chart-abs{
   position: absolute;
@@ -317,7 +323,7 @@ body {
   position: absolute;
   color: black;
   margin-left: 412px;
-  margin-top: 102px;
+  margin-top: 133px;
 }
 .chart-abs1{
   position: absolute;
@@ -330,7 +336,7 @@ body {
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 0px 0px 17px #0000002a;
   opacity: 1;
-  margin-top: 88px !important;
+  margin-top: 119px !important;
 }
 .chart-abs2{
   position: absolute;
@@ -343,7 +349,7 @@ body {
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 0px 0px 17px #0000002a;
   opacity: 1;
-  margin-top: 21px !important;
+  margin-top: 49px !important;
 }
 .chart-abs3{
   position: absolute;
@@ -356,7 +362,7 @@ body {
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 0px 0px 17px #0000002a;
   opacity: 1;
-  margin-top: 143px !important;
+  margin-top: 180px !important;
 }
 
 .chart1{

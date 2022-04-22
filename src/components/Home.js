@@ -313,7 +313,13 @@ const Home = () => {
                     54%
                   </h4>
                   <div className="chart-flex">
-                    <div style={{ width: "439px", marginLeft: "-122px",marginTop:"8px" }}>
+                    <div
+                      style={{
+                        width: "439px",
+                        marginLeft: "-122px",
+                        marginTop: "8px",
+                      }}
+                    >
                       <Chart />
                     </div>
                     <div className="asdfg">
@@ -376,7 +382,7 @@ const Home = () => {
                       position: "absolute",
                       color: "black",
                       marginLeft: "238px",
-                      marginTop: "35px",
+                      marginTop: "64px",
                     }}
                   >
                     26%
@@ -388,19 +394,22 @@ const Home = () => {
                       position: "absolute",
                       color: "black",
                       marginLeft: "222px",
-                      marginTop: "159px",
+                      marginTop: "194px",
                     }}
                   >
                     30%
                   </h4>
                   <div className="chart-flex">
-                    <div style={{ width: "439px", marginLeft: "100px" ,marginTop:"10px"}}>
-                        
+                    <div
+                      style={{
+                        width: "439px",
+                        marginLeft: "100px",
+                        marginTop: "37px",
+                      }}
+                    >
                       <Chart1 />
-                      <br/>
-                 
                     </div>
-                    <div className="asdfg">
+                    <div className="asdfgg">
                       <div className="dotts">
                         <span style={{ color: "#F4B462", fontSize: "120px" }}>
                           .
@@ -418,7 +427,6 @@ const Home = () => {
                           .
                         </span>
                         <span className="dott-text">Triggers Alert</span>
-                
                       </div>
                     </div>
                   </div>
@@ -433,7 +441,10 @@ const Home = () => {
             <div className="last-div1 mt-3">
               <div style={{ position: "relative", left: "13px" }}>
                 <h6>Due by Age Summery</h6>
-                <span style={{ position:'relative',top:'-8px'}}> Payment due day wish</span>
+                <span style={{ position: "relative", top: "-8px" }}>
+                  {" "}
+                  Payment due day wish
+                </span>
               </div>
             </div>
             <div className="last-div2 mt-3">
@@ -441,12 +452,12 @@ const Home = () => {
                 style={{
                   color: "#4D5061",
                   position: "relative",
-                  right: "34px",
+                  right: "13px",
                 }}
               >
                 Penalty Saved amount
               </span>
-              <button style={{ width: "181px" }}>
+              <button style={{ width: "125px" }}>
                 <i
                   style={{ color: "#4D5061", fontWeight: "bold" }}
                   class="fa-solid fa-indian-rupee-sign"

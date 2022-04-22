@@ -11,6 +11,7 @@ export  default function Data() {
   return (
     <div>
          <h6 id='yearh6'>2022</h6>
+         <div style={{wigth:'20px'}}>
       <DatePicker getSelectedDay={selectedDay}
     
  
@@ -23,7 +24,7 @@ export  default function Data() {
                   
                   color={"#141414"}          
 />
-
+</div>
 </div>
   );
 }
